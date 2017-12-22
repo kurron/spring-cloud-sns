@@ -1,0 +1,13 @@
+cloud:
+    aws:
+        credentials:
+            accessKey: FAKEKEY
+            secretKey: FAKEKEY
+            instanceProfile: false
+        region:
+            auto: false
+            static: us-west-2
+
+endpoints:
+    enabled: true
+    sensitive: false
