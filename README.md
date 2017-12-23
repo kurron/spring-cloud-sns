@@ -6,8 +6,8 @@ Details about this project are contained in the [guidebook](guidebook/guidebook.
 
 # Prerequisites
 * [JDK 8](http://zulu.org/) installed and working
+* an SNS topic named `example-topic` -- you can select another name but will have to edit the code
 * an SQS queue named `sqs-experiment` -- you can select another name but will have to edit the code
-* an SQS queue named `secondary-queue` -- you can select another name but will have to edit the code
 * the queue should be subscribed to the topic.  Using the SQS console is a convenient way to do this.
 
 # Building
